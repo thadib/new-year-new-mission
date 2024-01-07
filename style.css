@@ -98,3 +98,71 @@
     width: 300px;
     margin: 80px 100px;
 }
+.date{
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+}
+.date-text{
+    width: 400px;
+    margin: 100px auto 20px;
+    text-align: center;
+    color: #070211;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    padding-top: 100px;
+}
+.date-text *{
+    margin-bottom: 10px;
+}
+.date-text .colorful-date, .gift-tag{
+    color: #F00;
+}
+.btn{
+    margin-top: 30px;
+    border-radius: 8px;
+    background: #F00;
+    padding: 16px 32px;
+    border: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.best-gift{
+    margin: 100px 0;
+}
+.best-gift-text h2{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 38px;
+    font-weight: 900;
+    text-transform: capitalize;
+    padding: 10px 0;
+}
+.best-gift-text .gift-description{
+    width: 65%;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+}
+.product-img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.product-img .row-img{
+    width: 32%;
+    margin-top: 30px;
+}
+.product-img .row-img img{
+    width: 100%;
+    height: auto;
+    transition: transform 0.6s ease;
+}
+.product-img .row-img img:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
