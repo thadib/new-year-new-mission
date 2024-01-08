@@ -35,7 +35,7 @@ p{
 
 .header-content{
     background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('resources/header.png');
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     border-radius: 16px;
 }
@@ -46,7 +46,7 @@ p{
     font-size: 18px;
     font-weight: 400;
 }
-.header-content h2{
+.header-content h1{
     width: 550px;
     margin: 20px auto 100px;
     padding-bottom: 250px;
@@ -150,6 +150,7 @@ p{
     align-items: center;
     margin-top: 100px;
     gap: 30px;
+    position: relative;
 }
 .coming-soon .new-product{
     width: 440px;
@@ -172,6 +173,65 @@ p{
 .coming-soon .new-year h2{
     color: #F00;
     padding-bottom: 10px;
+}
+.holiday{
+    margin-top: 100px;
+}
+.holiday-text{
+    width: 650px;
+    margin: 50px auto;
+    text-align: center;
+}
+.holiday-text h4{
+    color: #070211;
+    padding-bottom: 10px;
+}
+.holiday-text h1{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 52px;
+    font-weight: 900;
+    padding-bottom: 10px;
+}
+.holiday-text .decorate-text{
+    color: #F00;
+}
+.banner {
+    height: 700px;
+    width: 100%;
+    max-width: 1320px;
+    margin: auto;
+    position: relative;
+}
+.gift-box{
+    width: 500px;
+    height: auto;
+    position: absolute;
+    top: 200px;
+    left: 150px;
+    
+    z-index: 2;
+}
+.red-line{
+    position: absolute;
+    top: 100%;
+    transform: translate(0%, -100%);
+    z-index: 1;
+}
+.shopping-bag{
+    position: absolute;
+    top: 35px;
+    left: 100%;
+    transform: translate(-100%);
+}
+.discount{
+    position: absolute;
+    top: 140px;
+    left: 700px;
+}
+
+.gift-box img{
+    width: 100%;
 }
 .best-gift{
     margin: 100px 0;
@@ -261,14 +321,27 @@ p{
 }
 .footer-part{
     max-width: 1600px;
-    margin-top: 60px;
+    margin: 60px auto 0;
     background: #070211;
-    color: #FFF;
+    
 }
 .footer-part .address{
     display: flex;
     justify-content: space-between;
     padding: 50px 100px 20px 0;
+}
+.address *{
+    color: #FFF;
+}
+.contact .call{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.contact .website{
+    display: flex;
+    align-items: center;
+    gap: 15px;
 }
 .footer-part hr{
     border: 1px solid rgba(255, 255, 255, 0.15);
@@ -287,5 +360,8 @@ p{
     justify-content: space-between;
     margin-top: 30px;
     padding-bottom: 20px;
+}
+.copyright *{
+    color: #FFF;
 }
 
