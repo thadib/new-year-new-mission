@@ -12,6 +12,9 @@
     width: 80%;
     margin: 20px auto;
 }
+h1{
+    
+}
 h2{
     color: #070211;
     font-family: Merriweather;
@@ -49,12 +52,11 @@ p{
 .header-content h1{
     width: 550px;
     margin: 20px auto 100px;
-    padding-bottom: 250px;
+    padding-bottom: 200px;
     color: #FFF;
     text-align: center;
     font-size: 52px;
     font-weight: 900;
-
 }
 .offer-content h1{
     color: #F00;
@@ -88,7 +90,7 @@ p{
     margin-left: 100px;
 }
 .greetings-text h1{
-    width: 550px;
+    width: 600px;
     color: #FFF;
     font-size: 45px;
     font-weight: 900;
@@ -108,9 +110,13 @@ p{
     text-transform: uppercase;
     margin-top: 30px;
 }
-.greetings-img{
+.greetings-img .greetings-2024{
     width: 250px;
-    margin: 80px 100px;
+    margin: 10px 30px 10px 100px;
+}
+.greetings-2024 img{
+    width: 100%;
+    padding: 50px 0;
 }
 .date{
     background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
@@ -174,6 +180,9 @@ p{
     color: #F00;
     padding-bottom: 10px;
 }
+.new-year-img{
+    padding-top: 30px;
+}
 .holiday{
     margin-top: 100px;
 }
@@ -201,15 +210,17 @@ p{
     width: 100%;
     max-width: 1320px;
     margin: auto;
+    background-image: url('resources/Rectangle\ 2.png');
+    background-repeat: no-repeat;
+    background-position: center bottom;
     position: relative;
 }
 .gift-box{
-    width: 500px;
+    width: 450px;
     height: auto;
     position: absolute;
-    top: 200px;
-    left: 150px;
-    
+    top: 250px;
+    left: 50px;
     z-index: 2;
 }
 .red-line{
@@ -220,14 +231,14 @@ p{
 }
 .shopping-bag{
     position: absolute;
-    top: 35px;
+    top: 38px;
     left: 100%;
     transform: translate(-100%);
 }
 .discount{
     position: absolute;
     top: 140px;
-    left: 700px;
+    left: 550px;
 }
 
 .gift-box img{
