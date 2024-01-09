@@ -12,9 +12,6 @@
     width: 80%;
     margin: 20px auto;
 }
-h1{
-    
-}
 h2{
     color: #070211;
     font-family: Merriweather;
@@ -34,7 +31,7 @@ p{
     font-weight: 400;
 }
 
-
+/* Header Section */
 
 .header-content{
     background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('resources/header.png');
@@ -58,6 +55,9 @@ p{
     font-size: 52px;
     font-weight: 900;
 }
+
+/* Offer Section */
+
 .offer-content h1{
     color: #F00;
     text-align: center;
@@ -78,6 +78,9 @@ p{
     width: 800px;
     margin: 30px auto 50px;
 }
+
+/* Greetings Section */
+
 .greetings{
     background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('resources/Vectorrr.png');
     background-repeat: no-repeat;
@@ -85,6 +88,7 @@ p{
     display: flex;
     align-items: center;
     border-radius: 10px;
+    margin-top: 100px;
 }
 .greetings-text *{
     margin-left: 100px;
@@ -103,12 +107,14 @@ p{
     font-weight: 400;
     margin-top: 20px;
 }
+
 .greetings-text .join-now{
     color: #FFF;
     font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
     margin-top: 30px;
+    padding-left: 30px;
 }
 .greetings-img .greetings-2024{
     width: 250px;
@@ -118,24 +124,33 @@ p{
     width: 100%;
     padding: 50px 0;
 }
+
+/* Address Section */
+
 .date{
     background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    border-radius: 10px;
 }
-.date-text{
+.date-text {
     width: 400px;
     margin: 100px auto 20px;
     text-align: center;
-    color: #070211;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 600;
     padding-top: 100px;
 }
 .date-text *{
     margin-bottom: 10px;
 }
-.date-text{
+.date-text p{
+    color: #070211;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+}
+.colorful-date{
     color: #F00;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
 }
 .btn{
     margin-top: 30px;
@@ -150,13 +165,15 @@ p{
     font-weight: 700;
     text-transform: uppercase;
 }
+
+/* Coming Soon Section */
+
 .coming-soon{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 100px;
-    gap: 30px;
-    position: relative;
+    gap: 70px;
 }
 .coming-soon .new-product{
     width: 440px;
@@ -174,7 +191,7 @@ p{
 }
 .coming-soon .new-year{
     width: 440px;
-    margin-left: 50px;
+    margin-left: 30px;
 }
 .coming-soon .new-year h2{
     color: #F00;
@@ -183,6 +200,9 @@ p{
 .new-year-img{
     padding-top: 30px;
 }
+
+/* Holiday Section */
+
 .holiday{
     margin-top: 100px;
 }
@@ -241,6 +261,8 @@ p{
     left: 550px;
 }
 
+/* The Best Gift Section */
+
 .gift-box img{
     width: 100%;
 }
@@ -279,8 +301,12 @@ p{
     transform: scale(1.05);
     cursor: pointer;
 }
+
+/* Newsletter Section */
+
 .newsletter{
     background-color: rgba(255, 0, 0, 0.05);
+    border-radius: 16px;
     padding-bottom: 50px;
 }
 .newsletter-content{
@@ -330,6 +356,10 @@ p{
     font-size: 16px;
     font-weight: 600;
 }
+
+
+/* Footer Section */
+
 .footer-part{
     max-width: 1600px;
     margin: 60px auto 0;
